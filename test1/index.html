@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <script>
+    const products = ['テレビ','冷蔵庫','机','スマホ','本棚','椅子','テーブル'];
+
+    const search = (items, target) => {
+
+      const result = items.filter(item => item === target);
+
+      if(result.length) {
+       return '商品が見つかりました！';
+      } else {
+       return target+'は見つかりませんでした';
+      }
+
+    }
+
+    console.log( search(products, 'パソコン'));
+  </script>
+</head>
+<body>
+
+</body>
+</html>

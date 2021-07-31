@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html :lang="ja">
+ <head>
+   <meta charset="UTF-8">
+   <title>HTML/CSSの学習</title>
+ <head>
+ /* 上下左右のpaddingの幅を10pxに指定 */
+/* 上下左右のmarginの幅を20pxに指定 */
+h2 {
+  padding: 10px;
+  margin: 20px;
+}
+/* 上下、左右のpaddingを10px、15pxに指定 */
+/* 上下、左右のmarginを10px、20pxに指定 */
+h2 {
+  padding: 10px 15px;
+  margin: 10px 20px;
+}
+/* 上、左右、下のpaddingを5px、15px、10pxに指定 */
+/* 上、左右、下のmarginを6px、10px、8pxに指定*/
+h2 {
+  padding: 5px 15px 10px;
+  margin: 6px 10px 8px;
+}
+/* 上、右、下、左のpaddingを1px、2px、3px、4pxに指定 */
+/* 上、右、下、左のmarginを10px、9px、8px、7pxに指定 */
+h2 {
+  padding: 1px 2px 3px 4px;
+  margin: 10px 9px 8px 7px;
+}
